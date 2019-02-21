@@ -37,7 +37,8 @@ def word_substituter(string)
 end
 
 def bulk_tweet_shortener(array)
-  bulk_array = array.split
+  bulk_array = array[i].split
+  i += 1
   updatedBulkArray = bulk_array.map do |word|
     if (dictionary[word])
       word = dictionry[word]
