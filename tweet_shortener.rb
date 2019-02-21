@@ -27,7 +27,7 @@ def word_substituter(string)
                  "and" => '&'
                }
   array = string.split
-  array.each do |word|
+  array.map do |word|
     if(!!dictionary[word])
       word = dictionary[word]
     end
