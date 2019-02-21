@@ -26,11 +26,11 @@ def word_substituter(string)
                  "and" => '&'
                }
   array = string.split
-  new_tweet = []
   array.each do |word|
     dictionary.each do |w, s|
      if  word == w
-       new_tweet << s
+       word.each { |w, s| str.sub!(w, s) }
+       
      end
     end
   end
