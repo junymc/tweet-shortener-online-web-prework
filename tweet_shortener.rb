@@ -34,7 +34,6 @@ def word_substituter(string)
     end
   end
   array.join(', ')
-  array.to_s
   array
 end
 
