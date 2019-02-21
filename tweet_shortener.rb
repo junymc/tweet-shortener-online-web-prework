@@ -1,3 +1,4 @@
+require 'pry'
 dictionary = {
                "hello" => 'hi',
                "to" => '2',
