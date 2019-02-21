@@ -29,7 +29,13 @@ end
 def bulk_tweet_shortener(array)
 end
 
-def selective_tweet_shortener
+def selective_tweet_shortener(tweet)
+  tweet.split
+  if tweet.size > 140
+    word_substituter(tweet)
+  else
+   return tweet
+  end
 end
 
 def shortened_tweet_truncator
