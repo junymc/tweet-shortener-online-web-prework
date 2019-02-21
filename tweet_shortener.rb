@@ -37,6 +37,14 @@ def word_substituter(string)
 end
 
 def bulk_tweet_shortener(array)
+  bulk_array = array.split
+  updatedBulkArray = bulk_array.map do |word|
+    if (dictionary[word])
+      word = dictionry[word]
+    end
+    word
+  end
+  updatedBulkArray.join(' ')
 end
 
 def selective_tweet_shortener(tweet)
