@@ -28,7 +28,7 @@ def word_substituter(string)
                }
   array = string.split
   updatedArray = array.map do |word|
-    if(!!dictionary[word])
+    if(dictionary[word])
       word = dictionary[word]
     end
 
