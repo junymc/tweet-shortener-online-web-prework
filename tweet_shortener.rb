@@ -39,7 +39,6 @@ end
 def bulk_tweet_shortener(array)
   bulk_array = array.split
   updatedBulkArray = bulk_array.map do |word|
-    binding.pry
     if (dictionary[word])
       word = dictionry[word]
     end
