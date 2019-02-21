@@ -14,7 +14,7 @@ dictionary = {
 
 def word_substituter(string)
   array = string.split
-  string.each do |word|
+  array.each do |word|
     dictionary.each do |w, s|
      if  word == w
        string << s
