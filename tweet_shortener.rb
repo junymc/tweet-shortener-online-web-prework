@@ -20,9 +20,9 @@ def word_substituter(string)
        string << s
      end
     end
-  end
   string.join(', ')
   string.to_s
+end
   string
 end
 
