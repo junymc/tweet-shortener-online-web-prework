@@ -32,8 +32,9 @@ def word_substituter(string)
        array << s
      end
     end
-  end
+
   array.join(' ')
+end
   array
 end
 
