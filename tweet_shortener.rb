@@ -17,7 +17,7 @@ def word_substituter(string)
   array.each do |word|
     dictionary.each do |w, s|
      if  word == w
-       string << s
+       array << s
      end
     end
   end
