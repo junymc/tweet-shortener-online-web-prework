@@ -1,5 +1,5 @@
 def word_substituter(string)
-  string.to_a
+  string.split
   string.each do |word|
     if word == dictionary
     end
