@@ -27,13 +27,11 @@ def word_substituter(string)
                }
   array = string.split
   array.each do |word|
-    dictionary.each do |w, s|
-     if  word == w
-    
-
-     end
+    if(dictionary[word]) 
+      word = dictionary[word]
     end
   end
+  
   array.join(', ')
   array
 end
