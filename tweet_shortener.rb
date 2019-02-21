@@ -27,13 +27,15 @@ def word_substituter(string)
                  "and" => '&'
                }
   array = string.split
-  array.map do |word|
+  updatedArray = array.map do |word|
     if(!!dictionary[word])
       word = dictionary[word]
     end
 
     word
   end
+
+  binding.pry
 
   array.join(', ')
   array
