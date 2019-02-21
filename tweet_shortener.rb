@@ -33,7 +33,7 @@ def word_substituter(string)
      end
     end
 
-  array.join(' ')
+  array.join(', ')
 end
   array
 end
