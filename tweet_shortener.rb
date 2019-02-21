@@ -6,4 +6,6 @@ end
 
 def selective_tweet_shortener
 end
-# Write your code here.
+
+def shortened_tweet_truncator
+end# Write your code here.
