@@ -31,7 +31,8 @@ def word_substituter(string)
     if(!!dictionary[word])
       word = dictionary[word]
     end
-    binding.pry
+
+    word
   end
 
   array.join(', ')
