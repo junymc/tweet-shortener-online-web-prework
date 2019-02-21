@@ -32,7 +32,6 @@ def word_substituter(string)
       word = dictionary[word]
     end
 
-    word
   end
 
   updatedArray.join(' ')
