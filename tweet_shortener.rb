@@ -29,7 +29,7 @@ def word_substituter(string)
   array = string.split
   updatedArray = array.map do |word|
     if(dictionary[word.downcase])
-      word = dictionary[word]
+      word = dictionary[word.downcase]
     end
     word
   end
