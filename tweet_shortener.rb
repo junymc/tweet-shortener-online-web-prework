@@ -37,7 +37,7 @@ def word_substituter(string)
 end
 
 def bulk_tweet_shortener(array)
-  array.each do |strings|
+  array.map do |strings|
   puts word_substituter(strings)
   end
 end
