@@ -52,7 +52,7 @@ end
 
 def shortened_tweet_truncator(tweet)
   word_substituter(tweet)
-  if shortened_tweet.size > 140
+  if word_substituter(tweet).size > 140
     puts shortened_tweet(0..139) << "..."
   else
     tweet
